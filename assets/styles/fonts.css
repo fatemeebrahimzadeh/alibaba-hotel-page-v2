@@ -1,0 +1,23 @@
+@font-face {
+    font-family: alibaba;
+    src: url("https://cdn.alibaba.ir/h2/desktop/assets/fonts/alibaba/alibaba-regular.woff2-5d2979c4.woff2") format("woff2"), url("https://cdn.alibaba.ir/h2/desktop/assets/fonts/alibaba/alibaba-regular-588b6fcf.woff") format("woff"), url("https://cdn.alibaba.ir/h2/desktop/assets/fonts/alibaba/alibaba-regular-7ab3eea7.eot?#iefix") format("embedded-opentype"), url("https://cdn.alibaba.ir/h2/desktop/assets/fonts/alibaba/alibaba-regular-e2638a27.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: alibaba;
+    src: url("https://cdn.alibaba.ir/h2/desktop/assets/fonts/alibaba/alibaba-bold.woff2-bbb24413.woff2") format("woff2"), url("https://cdn.alibaba.ir/h2/desktop/assets/fonts/alibaba/alibaba-bold-4edf9c7b.woff") format("woff"), url("https://cdn.alibaba.ir/h2/desktop/assets/fonts/alibaba/alibaba-bold-e7a0564c.eot?#iefix") format("embedded-opentype"), url("https://cdn.alibaba.ir/h2/desktop/assets/fonts/alibaba/alibaba-bold-398e0943.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: alibaba;
+    src: url("https://cdn.alibaba.ir/h2/desktop/assets/fonts/alibaba/alibaba-black.woff2-41970917.woff2") format("woff2"), url("https://cdn.alibaba.ir/h2/desktop/assets/fonts/alibaba/alibaba-black-4557273d.woff") format("woff"), url("https://cdn.alibaba.ir/h2/desktop/assets/fonts/alibaba/alibaba-black-9f9cc3e5.eot?#iefix") format("embedded-opentype"), url("https://cdn.alibaba.ir/h2/desktop/assets/fonts/alibaba/alibaba-black-fa7c68fd.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+}
