@@ -57,6 +57,54 @@
     --shadow-inner: inset 0 2px 4px 0 rgb(0, 0, 0, .05)
 }
 
+.fixed {
+    position: fixed;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.gap-0-5 {
+    gap: 0.5rem;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-4 {
+    gap: 4rem;
+}
+
+.font-size-0-5 {
+    font-size: 0.5rem;
+}
+
+.padding-top-0-5 {
+    padding-top: 0.5rem;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
 * {
     box-sizing: border-box;
 }

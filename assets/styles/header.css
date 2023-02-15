@@ -1,0 +1,138 @@
+header {
+    top: 0;
+    width: 100%;
+    flex-direction: column;
+    border-bottom: solid 1px var(--border-color);
+    box-shadow: var(--shadow-color);
+    color: var(--grays-500);
+    z-index: 100;
+    background-color: var(--white);
+}
+
+header>.container {
+    width: 1200px;
+}
+
+.nav-bar__right>ul {
+    color: var(--grays-500);
+}
+
+.nav-bar__right>ul>li {
+    height: 50%;
+}
+
+.nav-bar__right>ul>li.divider {
+    border-left: 1px solid var(--border-color);
+}
+
+/* .nav-bar__right ul>li>button {
+    padding: 0.5rem 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+} */
+
+/* .nav-bar__right>ul>li>button>ul>li:hover,
+.nav-bar__right>ul>li>button:hover {
+    border-radius: var(--border-radius);
+    background-color: #f8fafb;
+}
+
+.nav-bar__right>ul>li>button:hover>ul {
+    visibility: visible;
+}
+
+.nav-bar__right>ul>li>button>ul {
+    border-radius: var(--border-radius);
+    padding: 0.5rem;
+    position: absolute;
+    right: 0;
+    background-color: var(--white);
+    box-shadow: var(--shadow-color);
+    border: 1px solid var(--border-color);
+    width: 8rem;
+    visibility: hidden;
+} */
+
+/* .nav-bar__right>ul>li>button>ul>li:not(.divider) {
+    padding: 8px 12px;
+    min-height: 40px;
+    text-align: center;
+    font-size: small;
+}
+
+.nav-bar__right>ul>li>button>ul>li.divider {
+    border-bottom: 1px solid var(--border-color);
+} */
+
+.nav-bar__left {
+    margin-right: auto;
+}
+
+.alibaba-icon>div {
+    height: 48px;
+}
+
+.alibaba-icon>div>h2 {
+    font-weight: 400;
+}
+
+.header__anchor-tags {
+    min-width: 80%;
+}
+
+.header__anchor-tags a {
+    line-height: 2rem;
+}
+
+/* laptop */
+@media (max-width: 1280px) {
+    .wrapper>.header>.container {
+        width: 1000px;
+    }
+}
+
+/* desktop-portrait */
+@media (max-width: 1024px) {
+    .wrapper>.header>.container {
+        width: 700px;
+    }
+
+    .wrapper>.header>.container .nav-bar>div:first-child ul {
+        display: none;
+    }
+}
+
+/* ipad-portrait */
+@media (max-width: 768px) {
+    .wrapper>.header>.container {
+        width: 400px;
+    }
+}
+
+/* iPhone-6-plus */
+@media (max-width: 414px) {
+    .wrapper>.header>.container {
+        width: 370px;
+    }
+}
+
+/* iPhone-6 */
+@media (max-width: 375px) {
+    .wrapper>.header>.container {
+        width: 360px;
+    }
+}
+
+/* android-portrait */
+@media (max-width: 360px) {
+    .wrapper>.header>.container {
+        width: 320px;
+    }
+}
+
+/* iPhone-4 */
+@media (max-width: 320px) {
+    .wrapper>.header>.container {
+        width: 200px;
+    }
+}
