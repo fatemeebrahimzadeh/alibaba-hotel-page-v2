@@ -1,0 +1,11 @@
+.modal-container {
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background-color: var(--grays-500);
+}
+
+.modal-container .box {
+    width: 1200px;
+    min-height: 500px;
+}
