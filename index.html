@@ -123,11 +123,11 @@
 </head>
 
 <body>
-  <header class="fixed flex">
+  <header class="fixed flex w-full">
     <div class="container margin-auto">
       <nav class="flex justify-content-between">
         <div class="navbar__right flex justify-content-between gap-4">
-          <a title="https://www.alibaba.ir" href="https://www.alibaba.ir" class="alibaba-icon flex font-size-0-5">
+          <!-- <a title="https://www.alibaba.ir" href="https://www.alibaba.ir" class="alibaba-icon flex font-size-0-5">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" role="img">
               <g fill-rule="nonzero" fill="none">
                 <path fill="#231F20"
@@ -160,16 +160,16 @@
               </svg>
               <h2 class="margin-0">خرید بلیط، هتل، تور</h2>
             </div>
-          </a>
+          </a> -->
           <ul class="flex align-items-center gap-0-5">
-            <li class="flex align-items-center gap-0-5">
+            <li class="flex align-items-center gap-0-5 relative">
               بلیط
               <svg viewbox="0 0 24 24" width="16" height="16" fill="currentColor" class="md:mr-3">
                 <path
                   d="M21.266 7.302a.75.75 0 0 1 1.037 1.08l-.069.066-9.75 8.25a.75.75 0 0 1-.89.058l-.078-.058-9.75-8.25a.75.75 0 0 1 .893-1.202l.075.056L12 15.142l9.266-7.84Z">
                 </path>
               </svg>
-              <ul>
+              <ul class="absolute invisible">
                 <li><a href="#"> پرواز داخلی</a></li>
                 <li class="divider"></li>
                 <li><a href="#">پرواز خارجی</a></li>
@@ -180,14 +180,14 @@
               </ul>
             </li>
             <li class="divider flex align-items-center gap-0-5"></li>
-            <li class="flex align-items-center gap-0-5">
+            <li class="flex align-items-center gap-0-5 relative">
               اقامت
               <svg viewbox="0 0 24 24" width="16" height="16" fill="currentColor" class="md:mr-3" data-v-6af3b611>
                 <path
                   d="M21.266 7.302a.75.75 0 0 1 1.037 1.08l-.069.066-9.75 8.25a.75.75 0 0 1-.89.058l-.078-.058-9.75-8.25a.75.75 0 0 1 .893-1.202l.075.056L12 15.142l9.266-7.84Z">
                 </path>
               </svg>
-              <ul>
+              <ul class="absolute invisible">
                 <li><a href="#">هتل</a></li>
                 <li class="divider"></li>
                 <li><a href="#">ویلا واقامتگاه</a></li>
@@ -196,14 +196,14 @@
             <li class="divider flex align-items-center gap-0-5"></li>
             <li class="flex align-items-center gap-0-5"><a href="#"> تور</a> </li>
             <li class="divider flex align-items-center gap-0-5"></li>
-            <li class="flex align-items-center gap-0-5">
+            <li class="flex align-items-center gap-0-5 relative">
               بیشتر
               <svg viewbox="0 0 24 24" width="16" height="16" fill="currentColor" class="md:mr-3">
                 <path
                   d="M21.266 7.302a.75.75 0 0 1 1.037 1.08l-.069.066-9.75 8.25a.75.75 0 0 1-.89.058l-.078-.058-9.75-8.25a.75.75 0 0 1 .893-1.202l.075.056L12 15.142l9.266-7.84Z">
                 </path>
               </svg>
-              <ul>
+              <ul class="absolute invisible">
                 <li><a href="#">علی‌بابا پلاس</a></li>
                 <li class="divider"></li>
                 <li><a href="#">مجله علی‌بابا</a></li>
@@ -213,7 +213,7 @@
             </li>
           </ul>
         </div>
-        <div class="nav-bar__left flex gap-1">
+        <div class="navbar__left flex gap-1">
           <a class="flex align-items-center gap-0-5" title="Online support center" href="#">
             <svg viewbox="0 0 24 24" width="1.5em" fill="currentColor" class="ml-1">
               <path
@@ -264,7 +264,7 @@
       </div>
     </div>
   </header>
-  <div class="modal-container">
+  <div class="modal-container fixed w-full h-full hidden">
     <div class="box">
 
     </div>

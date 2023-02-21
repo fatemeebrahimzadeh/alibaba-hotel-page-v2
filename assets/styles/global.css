@@ -1,6 +1,4 @@
 :root {
-    /* --border-colorgba(0, 0, 0, 0.122)01f; */
-    /* --shadow-color: 0 2px 5px -1px #00000014; */
     --border-radius: 8px;
     --nav-height: 120px;
 
@@ -61,8 +59,24 @@
     position: fixed;
 }
 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
 .flex {
     display: flex;
+}
+
+.hidden{
+    display: none;
 }
 
 .justify-content-between {
@@ -75,6 +89,14 @@
 
 .justify-content-space-around {
     justify-content: space-around;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
 }
 
 .gap-0-5 {
@@ -94,6 +116,10 @@
 }
 
 .padding-top-0-5 {
+    padding-top: 0.5rem;
+}
+
+.padding-0-5 {
     padding-top: 0.5rem;
 }
 
@@ -165,7 +191,7 @@ button {
 .secedory-button {
     border-radius: calc(2 * var(--border-radius));
     background-color: var(--white);
-    box-shadow: var(--shadow-color);
+    box-shadow: var(--shadow-md);
 }
 
 .tertiary-button {
@@ -181,9 +207,9 @@ button {
 
 .box {
     background-color: var(--white);
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--border-1);
     color: var(--grays-500);
-    box-shadow: var(--shadow-color);
+    box-shadow: var(--shadow-md);
     padding: 1rem;
     border-radius: var(--border-radius);
 }

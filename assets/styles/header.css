@@ -1,9 +1,8 @@
 header {
     top: 0;
-    width: 100%;
     flex-direction: column;
-    border-bottom: solid 1px var(--border-color);
-    box-shadow: var(--shadow-color);
+    border-bottom: solid 1px var(--border-1);
+    box-shadow: var(--shadow-md);
     color: var(--grays-500);
     z-index: 100;
     background-color: var(--white);
@@ -13,58 +12,56 @@ header>.container {
     width: 1200px;
 }
 
-.nav-bar__right>ul {
+.navbar__right>ul {
     color: var(--grays-500);
 }
 
-.nav-bar__right>ul>li {
+.navbar__right>ul>li {
     height: 50%;
 }
 
-.nav-bar__right>ul>li.divider {
-    border-left: 1px solid var(--border-color);
+.navbar__right>ul>li.divider {
+    border-left: 1px solid var(--border-1);
 }
 
-/* .nav-bar__right ul>li>button {
+.navbar__right ul>li:not(.divider) {
     padding: 0.5rem 1rem;
     font-weight: 400;
     font-size: 1rem;
-} */
-
-/* .nav-bar__right>ul>li>button>ul>li:hover,
-.nav-bar__right>ul>li>button:hover {
-    border-radius: var(--border-radius);
-    background-color: #f8fafb;
 }
 
-.nav-bar__right>ul>li>button:hover>ul {
+.navbar__right>ul>li>ul>li:not(.divider):hover,
+.navbar__right>ul>li:not(.divider):hover {
+    border-radius: var(--border-radius);
+    background-color: var(--grays-100);
+}
+
+.navbar__right>ul>li:hover>ul {
     visibility: visible;
 }
 
-.nav-bar__right>ul>li>button>ul {
+.navbar__right>ul>li:not(.divider)>ul {
     border-radius: var(--border-radius);
-    padding: 0.5rem;
-    position: absolute;
+    top: 30px;
     right: 0;
     background-color: var(--white);
-    box-shadow: var(--shadow-color);
-    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-1);
     width: 8rem;
-    visibility: hidden;
-} */
+}
 
-/* .nav-bar__right>ul>li>button>ul>li:not(.divider) {
+.navbar__right>ul>li>ul>li:not(.divider) {
     padding: 8px 12px;
     min-height: 40px;
     text-align: center;
     font-size: small;
 }
 
-.nav-bar__right>ul>li>button>ul>li.divider {
-    border-bottom: 1px solid var(--border-color);
-} */
+.navbar__right>ul>li>ul>li.divider {
+    border-bottom: 1px solid var(--border-1);
+}
 
-.nav-bar__left {
+.navbar__left {
     margin-right: auto;
 }
 
