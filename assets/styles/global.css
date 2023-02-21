@@ -214,24 +214,25 @@ button {
     border-radius: var(--border-radius);
 }
 
+/* ipad-portrait */
 @media (max-width: 768px) {
     html {
         font-size: 12px;
     }
-}
 
-@media (max-width: 768px) {
     :root {
         --nav-height: 90px;
     }
 }
 
+/* iPhone-6-plus */
 @media (max-width: 414px) {
     :root {
         --nav-height: 60px;
     }
 }
 
+/* android-portrait */
 @media (max-width: 360px) {
     :root {
         --nav-height: 170px;
