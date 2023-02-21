@@ -75,7 +75,7 @@
     display: flex;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
@@ -214,8 +214,26 @@ button {
     border-radius: var(--border-radius);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     html {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --nav-height: 90px;
+    }
+}
+
+@media (max-width: 414px) {
+    :root {
+        --nav-height: 60px;
+    }
+}
+
+@media (max-width: 360px) {
+    :root {
+        --nav-height: 170px;
     }
 }

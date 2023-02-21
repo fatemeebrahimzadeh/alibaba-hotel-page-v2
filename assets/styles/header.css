@@ -83,53 +83,88 @@ header>.container {
 
 /* laptop */
 @media (max-width: 1280px) {
-    .wrapper>.header>.container {
+    header>.container {
         width: 1000px;
+    }
+
+    header>.container>nav {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar__left {
+        margin-right: 0;
     }
 }
 
 /* desktop-portrait */
 @media (max-width: 1024px) {
-    .wrapper>.header>.container {
+    header>.container {
         width: 700px;
     }
 
-    .wrapper>.header>.container .nav-bar>div:first-child ul {
+    header>.container .nav-bar>div:first-child ul {
         display: none;
     }
 }
 
 /* ipad-portrait */
 @media (max-width: 768px) {
-    .wrapper>.header>.container {
+    header>.container {
         width: 400px;
+    }
+
+    .navbar__right>ul>li:not(.divider)>ul {
+        top: 25px;
+    }
+
+    .alibaba-icon {
+        display: none;
     }
 }
 
 /* iPhone-6-plus */
 @media (max-width: 414px) {
-    .wrapper>.header>.container {
+    header>.container {
         width: 370px;
+    }
+
+    .header__anchor-tags {
+        display: none;
     }
 }
 
 /* iPhone-6 */
 @media (max-width: 375px) {
-    .wrapper>.header>.container {
+    header>.container {
         width: 360px;
     }
 }
 
 /* android-portrait */
 @media (max-width: 360px) {
-    .wrapper>.header>.container {
+    header>.container {
         width: 320px;
+    }
+
+    .navbar__left {
+        /* font-size: 8px; */
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .navbar__left>a {
+        border-bottom: solid 1px var(--border-1);
+        text-align: center;
+        justify-content: center;
+        min-height: 3rem;
     }
 }
 
 /* iPhone-4 */
 @media (max-width: 320px) {
-    .wrapper>.header>.container {
+    header>.container {
         width: 200px;
     }
 }
