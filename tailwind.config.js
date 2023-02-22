@@ -1,7 +1,7 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html,js}"],
-  prefix: 'tw-',
+  content: ["./src/**/*.{html,js}"],
   theme: {
     colors: {
       'overlay': 'rgba(10, 11, 12, .65)',
@@ -61,22 +61,18 @@ module.exports = {
         700: '#410B10'
       }
     },
-    screens: {
-      '2xl': { 'max': '1536px' },
-      'xl': { 'max': '1280px' },
-      'lg': { 'max': '1024px' },
-      'md': { 'max': '768px' },
-      'sm': { 'max': '640px' },
-      'iPhone-6-plus': { 'max': '414px' },
-      'iPhone-6': { 'max': '375px' },
-      'android-portrait': { 'max': '360px' },
-      'iPhone-4': { 'max': '320px' },
-    },
-    borderColor:{
+    borderColor: {
       1: 'rgba(0, 0, 0, .12)',
       2: 'rgba(0, 0, 0, .2)'
     },
     extend: {
+      screens: {
+        'iPhone-4': '320px',
+        'android-portrait': '360px',
+        'iPhone-6': '375px',
+        'iPhone-6-plus': '414px',
+        ...defaultTheme.screens
+      },
       spacing: {
         'nav-height': '120px',
         'md-nav-height': '90px',
